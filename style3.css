@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-one {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn-one:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn-two {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-two:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.btn-three {
+    background-color: orange;
+    color: #212529;
+}
+
+.btn-three:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
