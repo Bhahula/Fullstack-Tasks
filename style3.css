@@ -22,32 +22,32 @@ body {
     transition: background-color 0.3s, transform 0.3s;
 }
 
-.btn-one {
+.btn-primary {
     background-color: #007BFF;
     color: #fff;
 }
 
-.btn-one:hover {
+.btn-primary:hover {
     background-color: #0056b3;
     transform: scale(1.05);
 }
 
-.btn-two {
+.btn-secondary {
     background-color: #28a745;
     color: #fff;
 }
 
-.btn-two:hover {
+.btn-secondary:hover {
     background-color: #218838;
     transform: scale(1.05);
 }
 
-.btn-three {
-    background-color: orange;
+.btn-tertiary {
+    background-color: #ffc107;
     color: #212529;
 }
 
-.btn-three:hover {
+.btn-tertiary:hover {
     background-color: #e0a800;
     transform: scale(1.05);
 }
